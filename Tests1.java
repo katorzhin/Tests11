@@ -27,17 +27,15 @@ public class Tests1 {
         array[2][1] = 8;
         array[2][2] = 9;
 
-        //int sum = 0;
+       
 
 
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                // sum +=  args[i][j];
-
+                
                 System.out.print(" " + array[i][j]);
 
-
-            }
+           }
             System.out.println();
 
 
