@@ -2,7 +2,7 @@ package Tasks;
 
 public class Task62 {
     public static void main(String[] args) {
-        System.out.println(getZeroCount(1, 3, 5, 5, 7, 0, 0, 9, 9, 3, 5, 0, 0, 0, 0, 5));
+        System.out.println(getZeroCount(1, 3, 5, 5, 7, 0, 9, 9, 3, 5, 0, 0, 0, 0, 5));
     }
 
     public static int getZeroCount(int... numbers) {
